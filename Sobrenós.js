@@ -11,7 +11,7 @@ const Sobrenós = () => {
         Além dos nossos pães frescos, oferecemos uma ampla seleção de bolos, tortas, biscoitos e outros produtos assados que certamente satisfarão os seus desejos mais doces. Desde os clássicos até os mais criativos, cada item é cuidadosamente preparado para encantar o seu paladar.{"\n\n"}
         Na "Delícias do Povo", não somos apenas uma padaria, somos uma comunidade. Estamos comprometidos em servir não apenas produtos de qualidade, mas também oferecer um ambiente acolhedor e um atendimento caloroso a cada cliente que entra pela nossa porta. Aqui, todos são bem-vindos para desfrutar de momentos deliciosos e memoráveis.{"\n\n"}
         Venha nos visitar e faça parte da nossa história na "Delícias do Povo". Estamos ansiosos para recebê-lo e compartilhar com você o melhor da arte da panificação.{"\n\n"}
-        Sinta-se à vontade para personalizar este texto de acordo com a identidade e os valores da sua padaria "Delícias do Povo". Se precisar de mais alguma coisa, estou aqui para ajudar!
+        
       </Text>
     </ScrollView>
   );
@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 24,
     textAlign: 'left',
+    fontFamily: 'Montserrat-Regular', // Usando a fonte Montserrat
   },
 });
 

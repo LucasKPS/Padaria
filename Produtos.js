@@ -23,7 +23,11 @@ const Produtos = ({ navigation }) => {
 
   return (
     <View style={{ flex: 1 }}>
-      <Button title="Menu" onPress={handleDrawerPress} />
+      <Button
+        title="Menu"
+        onPress={handleDrawerPress}
+        color="#F1C40F" // Cor laranja para o botão Menu
+      />
       <ScrollView ref={scrollViewRef}>
         {produtosPadaria.map((produto, index) => (
           <View key={index} style={styles.card}>
@@ -33,7 +37,11 @@ const Produtos = ({ navigation }) => {
           </View>
         ))}
       </ScrollView>
-      <Button title="Rolar para o Topo" onPress={handleScrollToTop} />
+      <Button
+        title="Rolar para o Topo"
+        onPress={handleScrollToTop}
+        color="#F1C40F" // Cor laranja para o botão Rolar para o Topo
+      />
     </View>
   );
 };
